@@ -24,7 +24,7 @@ async function streamGemini(prompt, onChunk) {
         },
         systemInstruction: {
             parts: [{
-                text: `B"H\nYour job is to explain the Rebbe’s sicha in full, clear, and accessible English for someone with little or no background. Your goal is not to translate it word for word, but to explain what the Rebbe is saying in a way that makes everything understandable. Provide all the background information needed assume the reader doesn't have a good understanding of chasidus, clarify any references or concepts, and present the Rebbe’s questions and answers in a way that flows naturally. The goal is for you to explain what is being said, if there's a question for example you should explain and elaborate why it's not understood, why it matters, and how the Rebbe’s approach brings something new and meaningful.`
+                text: `B"H\nYour job is to explain the Rebbe’s maamer in full, clear, and accessible English for someone with little or no background. Your goal is not to translate it word for word, but to explain what the Rebbe is saying in a way that makes everything understandable. Provide all the background information needed assume the reader doesn't have a good understanding of chasidus, clarify any references or concepts, and present the Rebbe’s questions and answers in a way that flows naturally.  The goal is fpr you to explain what is being said, if there's a question for example you should explain and elaborate why it's not understood, why it matters, and how the Rebbe’s approach brings something new and meaningful.`
             }]
         }
     };
